@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    background-image: url(img/background1.webp);
+
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    height: 70vh;
+    width: 100vw;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+
+.nav {
+    /* background-color: red; */
+    width: 100vw;
+    height: 54px;
+    position: absolute;
+    top: 0px;
+
+}
+
+.logo img {
+    height: 43px;
+    position: relative;
+    left: 100px;
+    top: 12px;
+    filter: brightness(0) saturate(100%) invert(14%) sepia(99%) saturate(7182%) hue-rotate(354deg) brightness(200%) contrast(110%);
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    position: relative;
+    left: 10vw;
+    justify-content: space-between;
+
+}
+
+.flex {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+
+    font-family: "Martel Sans", sans-serif;
+
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0px;
+}
+
+.hero1 {
+    font-size: 6vh;
+    font-weight: 900;
+    font-size: 67px;
+}
+
+.hero2 {
+    position: relative;
+    font-weight: 700;
+    top: 12px;
+    font-size: 18px;
+}
+
+.hero3 {
+    position: relative;
+    font-weight: 700;
+    top: 38px;
+}
+
+.mail1 {
+    height: 53px;
+    width: 397px;
+    position: relative;
+    top: 37px;
+    left: -2px;
+    z-index: 1;
+    padding: 0 29px;
+    font-size: 16px;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+
+.mail2 {
+    background-color: red;
+    position: relative;
+    z-index: 1;
+    top: 43px;
+    left: 0px;
+    height: 57px;
+    width: 229px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+    border-radius: 5px;
+}
+
+
+body {
+    background-color: black;
+}
+
+.line {
+    height: 7px;
+    width: 100vw;
+    background-color: red;
+}
+
+.sn {
+    background-color: red;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    position: relative;
+    z-index: 1;
+    top: 17px;
+    left: 50px;
+    height: 41px;
+    width: 88px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.lang {
+    transition: background-color 0.3s ease;
+    font-family: "Martel Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+    opacity: 0.6;
+    position: relative;
+    z-index: 1;
+    top: 17px;
+    left: 50px;
+    height: 41px;
+    width: 88px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+
+
+
+}
+
+.eng {
+    background-color: white;
+    color: black;
+}
+
+.hin {
+    background-color: white;
+    color: black;
+
+}
+
+.tren {
+    color: white;
+    font-size: 30px;
+    width: 85vw;
+    margin: auto;
+    padding: 20px;
+}
+
+.img {
+    display: flex;
+    gap: 45px;
+    margin: 20px 141px;
+    width: 70vw;
+    margin: 40px auto;
+    overflow-x: auto;
+    padding: 30px;
+
+
+}
+
+.images {
+    border-radius: 14px;
+}
+
+.images:hover {
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+}
+
+.join {
+    color: white;
+    font-size: 30px;
+    width: 85vw;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.flex1 {
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    width: 85vw;
+    height: auto;
+
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+
+}
+
+.paragraph {
+    color: white;
+    position: relative;
+    top: 21px;
+
+}
+
+.headings {
+    background-color: #1c1c39;
+    width: 22vw;
+    height: 30vh;
+    border-radius: 7px;
+}
+
+.faq {
+    color: white;
+    font-size: 30px;
+    width: 85vw;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+
+}
+
+.flex2 {
+    width: 85vw;
+    height: 59vh;
+    margin: auto;
+}
+
+.head {
+    width: 100%vw;
+    height: 40px;
+    background-color: #181818;
+    margin: 10px;
+    padding: 20px 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.head:hover {
+    background-color: rgb(100, 99, 99);
+    transition: all 0.3s ease-in-out;
+}
+
+.mail3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    bottom: 41px;
+    align-items: center;
+
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    ;
+    font-weight: 700;
+    top: 38px;
+    color: white;
+    font-size: 20px;
+}
+
+.foot1 {
+    color: rgb(194, 194, 194);
+    font-size: 15px;
+    padding: 10vw 10vw;
+}
+
+.grid {
+    width: 80vw;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column; 
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+    font-size: 20px;
+    padding: 20px 30px;
+
+
+}
+
+footer{
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+}
