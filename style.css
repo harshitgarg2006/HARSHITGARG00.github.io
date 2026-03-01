@@ -7,7 +7,7 @@
 }
 
 .main {
-    background-image: url(background1.webp);
+    background-image: url("background1.webp");
 
     height: 70vh;
     width: 100vw;
@@ -334,3 +334,4 @@ footer{
     max-width: 60vw;
 
 }
+
