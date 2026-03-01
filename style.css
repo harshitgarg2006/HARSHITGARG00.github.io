@@ -8,7 +8,7 @@
 
 .main {
     background-image: url("background1.webp");
-    border:20px solid red;
+    
     height: 70vh;
     width: 100vw;
     position: relative;
@@ -334,5 +334,6 @@ footer{
     max-width: 60vw;
 
 }
+
 
 
